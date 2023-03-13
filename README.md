@@ -13,7 +13,7 @@ Movie streaming service
 ### Registration/Login/Profile
 * The website has a secure authentification system using cookies
 * Two-step registration with email verification
-* Login possibility with GitHub and 42-school credentials
+* OAuth login possibility with GitHub and 42-school credentials
 * User profile page
 * Possibility to change username, firstname, lastname, email, etc.
 * Upload profile picture
@@ -24,6 +24,7 @@ Movie streaming service
 ### Browsing
 * Listing movies (IMDB rating by default)
 * Search movies by their title
+* Movie posters from TMDB API
 
 <img src="https://user-images.githubusercontent.com/95418273/224670955-3e732e45-0e93-4b71-840a-adbfdd2c055e.gif" alt="login intro" width="500" height="400">
 <!-- ![browsingif](https://user-images.githubusercontent.com/95418273/224670955-3e732e45-0e93-4b71-840a-adbfdd2c055e.gif) -->
@@ -37,8 +38,8 @@ Movie streaming service
 <!-- ![moviegif](https://user-images.githubusercontent.com/95418273/224673325-7a13683d-1fd1-48dc-97bf-70ba89725b1c.gif) -->
 
 ### Video player
-* Streaming the video using yts torrent API
-* Changeable subtitles, by default based on the chosen language or availability
+* Streaming the video using YTS torrent API
+* Changeable subtitles, by default based on the chosen language or availability (OpenSubtitles API)
 * Fullscreen option
 <!-- ![playergif](https://user-images.githubusercontent.com/95418273/224679197-66efa24d-13b0-4b2d-8b17-0f73096c51fe.gif) -->
 
