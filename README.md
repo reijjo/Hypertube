@@ -53,6 +53,6 @@ Movie streaming service
 <img src="https://user-images.githubusercontent.com/95418273/224680895-f4bd241c-4ca6-4141-accf-9a003501bf6d.gif" alt="login intro" width="500" height="400">
 
 ### How to use:
-* rename 'hyper.env' file to '.env' => fill your info and API keys to that file
+* Rename 'hyper.env' file to '.env' => fill your info and API keys to that file
 * 'docker-compose up' on the terminal and you are good to go!
 * Frontend: localhost:3000 || Backend: localhost:3001 || pgAdmin: localhost:8080
